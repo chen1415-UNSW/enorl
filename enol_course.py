@@ -57,7 +57,7 @@ if __name__ == '__main__':
     
     cont, soup = getWebPage(url)
 #    print(soup)
-    print('---------Check COMP9417----5s------')
+    print('---------Check COMP9417----10s------')
     count = 1
     while True:
         if judge(soup) == 1:
