@@ -23,7 +23,7 @@ def judge(soup):
         print("Number of Open: ", len(Open_list))
         if len(Open_list)>2:
             print("Good!")
-            send_email("chenhao1415@gmail.com")
+            send_email("PLEASECHANGE")
             return 1
         else:
             return 0
@@ -31,10 +31,10 @@ def judge(soup):
 
 
 def send_email(reveive_email):
-    sender = "comp9321temp@gmail.com"
-    password = "abcd1234abcd"
+    sender = "USE YOUR EMAIL"
+    password = "YOUR PASS"
     
-    content = "COMP9417 get refreshed!"
+    content = "PLEASE CHANGE THE CONTAINS"
     mail = smtplib.SMTP("smtp.gmail.com", 587)
     mail.ehlo()
     mail.starttls()
@@ -49,7 +49,7 @@ def send_email(reveive_email):
 
 if __name__ == '__main__':
     time_start = time.time();
-    url = 'http://timetable.unsw.edu.au/2018/COMP9417.html'
+    url = 'http://timetable.unsw.edu.au/2018/COMP9417.html' PLEASE CHANGE
     receiver_email = "PLEASE CHANEG"
     
 #    url = 'http://timetable.unsw.edu.au/2018/COMP9021.html'
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     print('---------Check COMP9417----10s------')
     count = 1
     while True:
-        if judge(soup) == 1:
+        if judge(soup) == 1#PLEASE CHANGE HERE(COUNT THE FULL APPEARE TIME in the url):
             print("Success!!!")
             print(time.strftime("%Y-%m-%d %A %X %Z", time.localtime()))
             break
