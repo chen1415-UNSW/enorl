@@ -50,7 +50,7 @@ def send_email(reveive_email):
 if __name__ == '__main__':
     time_start = time.time();
     url = 'http://timetable.unsw.edu.au/2018/COMP9417.html'
-    receiver_email = "chenhao1415@gmail.com"
+    receiver_email = "PLEASE CHANEG"
     
 #    url = 'http://timetable.unsw.edu.au/2018/COMP9021.html'
     
